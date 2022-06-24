@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.box{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+.hijo-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: brown;
+}
+
+.fuente-1 {
+    font-size: 15px;
+}
+
+.fuente-3 {
+    font-size: 75px;
+}
+
+.fuente-5 {
+    font-size: 95px;
+}
+
+.grow {
+    flex-grow: 1;
+}
+/*.abuelo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+.hijo, .hija {
+    background-color: blueviolet;
+    width: 45%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nieto, .nieta {
+    background-color: coral;
+    width: 45%;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+}
+
+li {
+    margin: 10px;
+} */
+
